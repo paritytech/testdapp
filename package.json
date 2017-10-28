@@ -4,31 +4,25 @@
   "description": "Skeleton dapp",
   "main": "webpack.config.js",
   "dependencies": {
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
-    "webpack": "^2.7.0",
-    "webpack-dev-server": "^2.9.3",
     "oo7": "file:../oo7",
     "oo7-parity": "file:../oo7-parity",
     "oo7-react": "file:../oo7-react",
-    "parity-reactive-ui": "file:../parity-reactive-ui"
+    "parity-reactive-ui": "file:../parity-reactive-ui",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
   },
   "devDependencies": {
-    "eslint": "^4.7.2",
-    "eslint-config-semistandard": "^11.0.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
     "babel-cli": "^6.22.2",
-    "babel-eslint": "^8.0.0",
-    "babel-preset-env": "^1.6.0"
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --content-base build"
+    "start": "webpack-dev-server --content-base build",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",

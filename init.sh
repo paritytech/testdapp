@@ -1,7 +1,7 @@
 #!/bin/bash
 
-npm i --save babel-core webpack webpack-dev-server
-npm i --save-dev babel-loader babel-preset-es2015 babel-preset-react
+npm i --save-dev babel-core
+npm i --save-dev babel-loader babel-preset-react webpack webpack-dev-server
 npm i --save react react-dom
 npm i --save parity-reactive-ui
 
