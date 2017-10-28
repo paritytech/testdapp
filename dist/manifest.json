@@ -1,8 +1,1 @@
-{
-	"id": "testdapp",
-	"name": "Test Dapp",
-	"description": "A test dapp",
-	"version": "0.1",
-	"author": "Parity Technologies Ltd",
-	"iconUrl": "title.png"
-}
+docs/manifest.json
